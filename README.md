@@ -36,21 +36,3 @@ Build Tool: Gradle
 Architecture: Layered (Controller-Service-Repository)
 
 Design Patterns: MVC, Observer, Strategy
-
-📂 Project Structure
-Plaintext
-📂 SocialNetwork
- ┣ 📂 src/main/java/org/example/social
- ┃ ┣ 📂 controller    # UI View Controllers
- ┃ ┣ 📂 domain        # Entities and Validation logic
- ┃ ┣ 📂 exceptions    # Custom application-specific errors
- ┃ ┣ 📂 repository    # Data Access Objects (DAO)
- ┃ ┣ 📂 service       # Core Business Logic
- ┃ ┗ 📂 utils         # Shared helpers and utility classes
- ┣ 📂 resources       # FXML layouts and CSS styles
- ┗ 📜 build.gradle    # Dependency and project management
-🚀 Getting Started
-Prerequisites
-Java JDK 17 or higher
-
-Gradle (included via Gradle Wrapper)
