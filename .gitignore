@@ -1,0 +1,25 @@
+# --- Gradle ---
+.gradle/
+build/
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# --- Compiled Java files ---
+*.class
+*.jar
+*.war
+
+# --- Operating System ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Data & Logs ---
+# Dacă folosești o bază de date locală (ex. SQLite), o poți ignora aici
+*.db
+*.log
